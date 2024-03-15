@@ -60,3 +60,18 @@ You can re-build the docker image (used by Terraform) by running two scripts in 
 
 * 1-Build-Docker-Image.sh
 * 2-Deploy-Docker-Image-To-Docker-Hub.sh
+
+
+## Ruuning docker compose
+
+* Fill `.envcredentials` with appropriate API keys
+* Run `docker compose up -d`
+  
+3 environement will now be available :
+  * DEV : http://localhost:10000
+  * QA : http://localhost:10001
+  * PROD : http://localhost:10002
+
+
+
+
